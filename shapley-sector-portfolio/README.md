@@ -2,7 +2,7 @@
 
 S&P 500을 구성하는 **11개 섹터 ETF를 협력게임(cooperative game)의 플레이어**로 보고, 각 섹터가 포트폴리오의 위험 감소와 평균-분산 효용에 얼마나 기여하는지를 **Shapley value**로 정량 분해하는 프로젝트입니다.
 
-전체 이론·유도·결과는 [report/Trading_report.pdf](./report/Trading_report.pdf)에 정리되어 있고, 이 노트북이 그 구현체입니다.
+전체 이론·유도·결과는 [Trading_report.pdf](./Trading_report.pdf)에 정리되어 있고, 이 노트북이 그 구현체입니다.
 
 ## 방법론
 
@@ -40,6 +40,5 @@ jupyter lab shapley_sector_portfolio.ipynb
 shapley-sector-portfolio/
 ├── shapley_sector_portfolio.ipynb   # 구현
 ├── requirements.txt
-└── report/
-    └── Trading_report.pdf           # 이론·결과 리포트 (11p)
+└── Trading_report.pdf               # 이론·결과 리포트 (11p)
 ```
