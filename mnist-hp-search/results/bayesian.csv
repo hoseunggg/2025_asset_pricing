@@ -1,0 +1,2 @@
+Search_Type,Layer_Structure,Hyperparameters,Train_Loss,Train_Accuracy,Val_Loss,Val_Accuracy,Test_Loss,Test_Accuracy
+Bayesian,"(256, 96)","{'activation': 'swish', 'optimizer': 'adam', 'batch_size': 128, 'dropout': 0.0, 'regularizer': 'l2', 'reg_value': 2.873853389584415e-05}",0.05039774999022484,0.9921600222587585,0.09682324528694153,0.9772999882698059,0.09212124347686768,0.9786999821662903

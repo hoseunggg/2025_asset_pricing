@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keras-Tuner search cache (regenerated on run)
+**/tuner_dir/
+
+# Generated figures / model artifacts
+**/report/figure/
+*.h5
+*.keras
+
+# Local dependency lockfiles
+requirements.lock.txt
+
+# Large / proprietary data (must be supplied locally)
+**/crspm.csv

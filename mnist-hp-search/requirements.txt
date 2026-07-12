@@ -1,0 +1,9 @@
+# MNIST Hyperparameter Search dependencies
+# 첫 실행 성공 후 `pip freeze > requirements.lock.txt`로 정확한 버전 고정 권장
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+tensorflow>=2.13
+keras-tuner>=1.4
+joblib>=1.3
+jupyter
